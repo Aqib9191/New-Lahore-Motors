@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, MapPin, Building2, Clock, CheckCircle } from 'lucide-react';
 import { DEALERSHIP_INFO } from '../data/vehicles';
+import dealershipExteriorImg from '../assets/images/dealership_exterior_1790135207888.jpg';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-[#E5EAF0] shadow-lg bg-[#F7F9FC]">
               <img
-                src="/src/assets/images/dealership_exterior_1790135207888.jpg"
+                src={dealershipExteriorImg}
                 alt="New Lahore Motors dealership facility on Jail Road Lahore"
                 className="w-full h-[360px] sm:h-[420px] object-cover object-center"
                 referrerPolicy="no-referrer"

@@ -1,4 +1,10 @@
 import { Vehicle } from '../types/vehicle';
+import vehicleAltoImg from '../assets/images/vehicle_alto_hatchback_1790135291788.jpg';
+import categoryHatchbackImg from '../assets/images/category_hatchback_compact_1790135196904.jpg';
+import vehicleChanganImg from '../assets/images/vehicle_changan_sedan_1790135279379.jpg';
+import vehicleToyotaImg from '../assets/images/vehicle_toyota_sedan_1790135268149.jpg';
+import vehicleHondaImg from '../assets/images/vehicle_honda_sedan_1790135255346.jpg';
+import categorySedanLuxImg from '../assets/images/category_sedan_lux_1790135172324.jpg';
 
 export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
   {
@@ -16,7 +22,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 2994861,
     formattedPrice: 'PKR 2,994,861',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_alto_hatchback_1790135291788.jpg',
+    image: vehicleAltoImg,
     features: ['Manual 5-Speed Transmission', 'Air Conditioning & Heater', 'Power Steering (EPS)', 'Dual Front SRS Airbags', 'Immobilizer Key'],
     dimensions: '3,395 x 1,475 x 1,490 mm',
     fuelEconomyEst: '18 - 22 km/L',
@@ -36,7 +42,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 3166480,
     formattedPrice: 'PKR 3,166,480',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/category_hatchback_compact_1790135196904.jpg',
+    image: categoryHatchbackImg,
     features: ['Auto Gear Shift (AGS) Automatic', 'Anti-lock Braking System (ABS)', 'Electronic Brake-force Distribution', 'Dual SRS Airbags', 'Power Steering'],
     dimensions: '3,395 x 1,475 x 1,490 mm',
     fuelEconomyEst: '18 - 22 km/L',
@@ -56,7 +62,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 3326446,
     formattedPrice: 'PKR 3,326,446',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_alto_hatchback_1790135291788.jpg',
+    image: vehicleAltoImg,
     features: ['Touchscreen Infotainment System', 'Auto Gear Shift (AGS)', 'Retractable Side Mirrors', 'ABS with EBD', 'Power Windows & Central Locking'],
     dimensions: '3,395 x 1,475 x 1,490 mm',
     fuelEconomyEst: '18 - 22 km/L',
@@ -76,7 +82,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 4189000,
     formattedPrice: 'PKR 4,189,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_changan_sedan_1790135279379.jpg',
+    image: vehicleChanganImg,
     features: ['1.37L BlueCore VVT Engine', '7-inch Touchscreen Infotainment', 'Reverse Camera & Parking Sensors', 'Dual Airbags & ABS', 'Comfort Interior Ergonomics'],
     dimensions: '4,390 x 1,725 x 1,490 mm',
     fuelEconomyEst: '14 - 17 km/L',
@@ -96,7 +102,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 4649000,
     formattedPrice: 'PKR 4,649,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_toyota_sedan_1790135268149.jpg',
+    image: vehicleToyotaImg,
     features: ['Dual VVT-i Engine Technology', 'Vehicle Stability Control (VSC)', 'Traction Control (TRC)', 'Hill Start Assist Control (HAC)', 'Refined Acoustic Insulation'],
     dimensions: '4,425 x 1,730 x 1,475 mm',
     fuelEconomyEst: '13 - 16 km/L',
@@ -116,7 +122,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 4737000,
     formattedPrice: 'PKR 4,737,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_honda_sedan_1790135255346.jpg',
+    image: vehicleHondaImg,
     features: ['1.2L i-VTEC Fuel-Efficient Engine', 'Continuous Variable Transmission', 'Spacious Cabin & Boot Space', 'Push-Button Start Option', 'Dual SRS Airbags with ABS/EBD'],
     dimensions: '4,441 x 1,694 x 1,498 mm',
     fuelEconomyEst: '13 - 17 km/L',
@@ -136,7 +142,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 4899000,
     formattedPrice: 'PKR 4,899,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_changan_sedan_1790135279379.jpg',
+    image: vehicleChanganImg,
     features: ['Electronic Sunroof', 'Cruise Control', 'Tire Pressure Monitoring System (TPMS)', '5-Speed Dual Clutch Transmission', 'Projector Headlamps'],
     dimensions: '4,390 x 1,725 x 1,490 mm',
     fuelEconomyEst: '13 - 16 km/L',
@@ -156,7 +162,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 6069000,
     formattedPrice: 'PKR 6,069,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/category_sedan_lux_1790135172324.jpg',
+    image: categorySedanLuxImg,
     features: ['High-Grade Fabric / Leather Interior', '9-inch Android Infotainment Display', 'Automatic Climate Control', 'Retractable Mirrors & Fog Lights', '15-inch Alloy Wheels'],
     dimensions: '4,441 x 1,694 x 1,498 mm',
     fuelEconomyEst: '12 - 15 km/L',
@@ -176,7 +182,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 6099000,
     formattedPrice: 'PKR 6,099,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/vehicle_toyota_sedan_1790135268149.jpg',
+    image: vehicleToyotaImg,
     features: ['Super CVT-i 7-Speed Sequential Sport Shift', 'Aerodynamic Exterior Package', 'Vehicle Stability Control (VSC)', 'Smart Keyless Entry & Start', 'Renowned Pakistani Road Durability'],
     dimensions: '4,620 x 1,775 x 1,475 mm',
     fuelEconomyEst: '12 - 15 km/L',
@@ -196,7 +202,7 @@ export const OFFICIAL_REFERENCE_VEHICLES: Vehicle[] = [
     officialReferencePricePkr: 8499000,
     formattedPrice: 'PKR 8,499,000',
     priceTypeLabel: 'Official Manufacturer Reference Price',
-    image: '/src/assets/images/category_sedan_lux_1790135172324.jpg',
+    image: categorySedanLuxImg,
     features: ['1.5L VTEC Turbocharged Engine', 'Honda Sensing Safety Suite Support', 'Electronic Parking Brake with Auto Brake Hold', 'Full Digital Instrument Cluster', 'Executive Driving Dynamics'],
     dimensions: '4,678 x 1,802 x 1,415 mm',
     fuelEconomyEst: '11 - 14 km/L',

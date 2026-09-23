@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, ArrowRight, MapPin, Star, Building2 } from 'lucide-react';
 import { DEALERSHIP_INFO } from '../data/vehicles';
+import heroCarShowroomImg from '../assets/images/hero_car_showroom_1790135158558.jpg';
 
 interface HeroProps {
   onExploreCars: () => void;
@@ -74,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCars }) => {
 
               <div className="overflow-hidden rounded-xl border border-[#E5EAF0] bg-white shadow-xl">
                 <img
-                  src="/src/assets/images/hero_car_showroom_1790135158558.jpg"
+                  src={heroCarShowroomImg}
                   alt="New Lahore Motors car showroom on Jail Road, Lahore"
                   className="w-full h-[320px] sm:h-[400px] lg:h-[440px] object-cover object-center transform hover:scale-102 transition-transform duration-500"
                   referrerPolicy="no-referrer"

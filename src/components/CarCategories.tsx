@@ -1,5 +1,11 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
+import categorySedanLuxImg from '../assets/images/category_sedan_lux_1790135172324.jpg';
+import categoryHatchbackImg from '../assets/images/category_hatchback_compact_1790135196904.jpg';
+import categorySuvImg from '../assets/images/category_suv_modern_1790135184402.jpg';
+import vehicleToyotaImg from '../assets/images/vehicle_toyota_sedan_1790135268149.jpg';
+import vehicleAltoImg from '../assets/images/vehicle_alto_hatchback_1790135291788.jpg';
+import heroCarShowroomImg from '../assets/images/hero_car_showroom_1790135158558.jpg';
 
 interface CarCategoriesProps {
   onSelectCategory: (categoryKey: string) => void;
@@ -11,42 +17,42 @@ export const CarCategories: React.FC<CarCategoriesProps> = ({ onSelectCategory }
       id: 'Sedan',
       title: 'SEDANS',
       subtitle: 'Executive & City Sedans',
-      image: '/src/assets/images/category_sedan_lux_1790135172324.jpg',
+      image: categorySedanLuxImg,
       models: 'Honda Civic, City, Corolla, Alsvin',
     },
     {
       id: 'Hatchback',
       title: 'HATCHBACKS',
       subtitle: 'Compact City Hatchbacks',
-      image: '/src/assets/images/category_hatchback_compact_1790135196904.jpg',
+      image: categoryHatchbackImg,
       models: 'Suzuki Alto VXR, VXL',
     },
     {
       id: 'SUV',
       title: 'SUVs',
       subtitle: 'Sport Utility Vehicles',
-      image: '/src/assets/images/category_suv_modern_1790135184402.jpg',
+      image: categorySuvImg,
       models: 'Modern Crossover & Utility options',
     },
     {
       id: 'Family',
       title: 'FAMILY CARS',
       subtitle: 'Spacious & Comfortable Seating',
-      image: '/src/assets/images/vehicle_toyota_sedan_1790135268149.jpg',
+      image: vehicleToyotaImg,
       models: 'Reliable 5-seater family transportation',
     },
     {
       id: 'Economical',
       title: 'ECONOMICAL CARS',
       subtitle: 'Fuel Efficient Daily Drivers',
-      image: '/src/assets/images/vehicle_alto_hatchback_1790135291788.jpg',
+      image: vehicleAltoImg,
       models: 'Low maintenance, optimal mileage',
     },
     {
       id: 'Premium',
       title: 'PREMIUM CARS',
       subtitle: 'High Specification & Turbocharged',
-      image: '/src/assets/images/hero_car_showroom_1790135158558.jpg',
+      image: heroCarShowroomImg,
       models: 'Flagship Honda Civic, City Aspire',
     },
   ];
