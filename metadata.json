@@ -1,0 +1,6 @@
+{
+  "name": "New Lahore Motors",
+  "description": "Premium car dealership located on Jail Road, Mozang Chungi, Lahore. Browse vehicle reference models and connect directly for inventory enquiries and showroom visits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
